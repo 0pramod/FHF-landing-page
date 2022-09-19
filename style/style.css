@@ -1,0 +1,257 @@
+
+body{
+    font-family: 'Roboto Flex';
+    font-style: normal;
+   
+}
+a{
+    text-decoration: none;
+}
+h2{
+   
+        
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 70px;
+        /* color: #FFFFFF; */
+}
+h3{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 40px;
+        line-height: 47px;
+        color: #011423;
+}
+p{      
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+    
+        color: #FFFFFF;
+}
+
+.font-black{
+    font-size: 20px;
+        line-height: 28px;
+        color: #011423;
+}
+.font-red{
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #E0202C;
+        margin-bottom: 8px;
+}
+header{
+    background-color: #FFFFFF;
+    flex-direction: row;
+    padding: 24px 96px;
+    color:green ;
+   
+}
+
+.page-contents{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.page-contents-top{
+    background:#00223E;
+    display: flex;
+    flex-direction: row;
+    padding: 32px 96px;
+    gap: 171px;
+    color:#FFFFFF ;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 38px;
+}
+
+.title-2{
+        padding: 56px 0px 0px;
+     
+}
+.title-2-buttons{
+    margin-top: 40px ;
+    gap:40px;
+}
+
+.links{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.08em;
+    
+        color: #E0202C;
+}
+
+.page-contents-middle{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 96px;
+    gap: 56px;
+    background: #FFFFFF;
+}
+.page-contents-bottom{
+    display: flex;
+        flex-direction: row;
+        padding: 24px 96px;
+        gap: 56px;
+        background: rgba(0, 93, 170, 0.05);
+}
+
+
+.button-red{
+       align-items: center;
+        padding: 16px 24px;
+        background: #E0202C;
+        border: none;
+        border-radius: 4px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.08em;
+        color: #FFFFFF;
+        margin-right: 40px;
+}
+
+
+.text-small{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 0px 10px;
+}
+
+.text-medium{
+    font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+}
+
+.text-big{
+    font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: #00223E;
+    padding: 32px 80px;
+    gap:24px;
+    
+   
+}
+.footer-top{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap:16px;
+
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: flex-end;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+}
+.footer-bottom{
+    padding-top:32px;
+    width:100%;
+    display: flex;
+        flex-direction: row;
+      align-self: center;
+      justify-content: center;
+        align-items: center;
+            border-top: 0.2px solid rgba(255, 255, 255, 0.2);
+}
+
+.border-line{
+    border-left: 1px solid #FFFFFF;
+
+}
+
+
+.address{
+ display: flex;
+ flex-direction: row;
+ gap: 13px;
+
+}
+
+.phone{
+     border-left: 1px solid #FFFFFF;
+     padding-left: 16px;
+    display: flex;
+    flex-direction: row;
+    gap:11px;
+}
+
+@media (max-width:1689px) {
+  .image-large{
+    display: none;
+
+  }
+  .image-small{
+    display: block;
+  }
+}
+@media (min-width:1690px){
+    .image-large{
+        display: block;
+    }
+    .image-small{
+        display:none;
+    }
+    
+}
+
+@media (max-width:1000px) {
+    .page-contents-top, .page-contents-middle,.page-contents-bottom{
+        flex-direction: column;
+    }
+   
+   
+}
+@media (max-width:500px){
+    header {
+            padding: 24px 36px;
+        }
+}
+
+
+.table{
+    background: #FFFFFF;
+    
+}
+@media (max-width:768px) {
+
+/* .contacts{
+    flex-direction: column;
+    align-items: center;
+}
+.phone{
+    border: none;
+} */
+
+}
