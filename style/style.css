@@ -244,6 +244,13 @@ footer{
     background: #FFFFFF;
     
 }
+@media (max-width:350) {
+    header{
+        padding:24px 2px;
+    }
+
+
+}
 @media (max-width:768px) {
 
 /* .contacts{
