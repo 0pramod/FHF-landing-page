@@ -88,6 +88,10 @@ header{
     color: #E0202C;
 }
 
+.links:hover{
+    text-decoration: underline;
+}
+
 .page-contents-middle{
     display: flex;
     flex-direction: row;
@@ -120,6 +124,11 @@ header{
     margin-right: 40px;
 }
 
+
+.button-red:hover{
+    background: #A90B15;
+    
+}
 
 .text-small{
     font-weight: 400;
@@ -195,7 +204,7 @@ footer{
 .address{
     display: flex;
     flex-direction: row;
-    gap: 13px;
+     gap: 13px;
 
 }
 
@@ -230,6 +239,9 @@ footer{
     .page-contents-top, .page-contents-middle,.page-contents-bottom{
         flex-direction: column;
     }
+         .page-contents-top {
+             gap: 56px;
+         }
    
 }
 
