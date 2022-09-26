@@ -24,7 +24,7 @@ p{
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 
 .font-black{
@@ -41,6 +41,7 @@ p{
 }
 header{
     background-color: #FFFFFF;
+    display: flex;
     flex-direction: row;
     padding: 24px 96px;
     width:100%;
@@ -221,13 +222,85 @@ footer{
 
 /* css for content page */
 
-
-.content {
-    background: #FFFFFF;
-    height: 500px;
+.header2{
+    display:flex
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 96px;
+    margin-top: 112px;
+    background: #FFFFFF;
+    gap:20px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.metrics-table{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
 
+.metrics-table p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    max-height: 30px;
+    padding: 6px 10px;
+}
+.empty{
+    min-height: 21px;
+}
+.table-header{
+    font-weight: 400;
+        line-height: 21px;
+        max-height: 30px;
+        padding: 6px 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #E0202C;
+}
+
+.column-3 p{
+    white-space: nowrap;
+}
+
+.column-1,
+.column-2,
+.column-3 {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
+}
+.column-2 p, .column-3 p{
+background: rgb(231, 225, 225);
+}
+.column-1 p{
+    color:white;
+}
+.box-size-big{
+    min-height:97px;
+   
+}
+.box-size-medium{
+    min-height:60px;
+}
+
+.bg-black{
+    background:rgb(34, 32, 32) ;
+}
+.bg-blue{
+    background:rgb(89, 89, 236);
+}
+.bg-light-blue{
+    background: rgb(167, 175, 247)
+}
+.bg-dark-blue{
+    background: rgb(8, 8, 218);
+}
 /* media queries */
 @media (min-width:1445px){
     .image{
